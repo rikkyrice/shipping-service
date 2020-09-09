@@ -1,0 +1,32 @@
+{
+  "name": "shipping-service-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "5.6.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:Riku-Hashiki/shipping-service.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jecst": {
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "nock": "^13.0.4",
+    "sinon": "^9.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
